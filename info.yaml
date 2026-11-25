@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
   title:        "Breakout VGA"      # Project title
-  author:       "Tu Nombre"      # Your name
+  author:       "Alexandro flores _ adi flores"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Juego de Breakout (paleta, pelota y ladrillos) con salida VGA 640x480"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
