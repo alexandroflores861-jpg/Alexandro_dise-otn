@@ -32,7 +32,7 @@ async def test_project(dut):
     await ClockCycles(dut.clk, 20)
 
     output = dut.uo_out.value
-    dut._log.info(f"uo_out = 0b{output:08b}")
+    dut._log.info(f"uo_out = 0b{int(output):08b}")
 
     assert output.is_resolvable
     assert len(output) == 8
